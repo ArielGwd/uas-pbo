@@ -1,7 +1,7 @@
-class Employee {
+class Karyawan {
     private String name;
 
-    public Employee(String name) {
+    public Karyawan(String name) {
         this.name = name;
     }
 
@@ -10,24 +10,24 @@ class Employee {
     }
 }
 
-class Company {
-    private Employee employee;
+class Perusahaan {
+    private Karyawan karyawan;
 
-    public void setEmployee(Employee employee) {
-        this.employee = employee;
+    public void setKaryawan(Karyawan karyawan) {
+        this.karyawan = karyawan;
     }
 
-    public void showEmployee() {
-        System.out.println("Employee: " + employee.getName() + "\n");
+    public void showKaryawan() {
+        System.out.println("Karyawan: " + karyawan.getName() + "\n");
     }
 }
 
 public class Aggregation {
     public static void main(String[] args) {
-        Company company = new Company();
-        Employee employee = new Employee("Joko Kopling");
-        company.setEmployee(employee);
+        Perusahaan perusahaan = new Perusahaan();
+        Karyawan karyawan = new Karyawan("Joko Kopling");
+        perusahaan.setKaryawan(karyawan);
 
-        company.showEmployee();
+        perusahaan.showKaryawan();
     }
 }
