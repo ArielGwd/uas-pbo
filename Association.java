@@ -33,7 +33,7 @@ class Dosen {
 public class Association {
     public static void main(String[] args) {
         Mahasiswa mhs = new Mahasiswa("Ariel");
-        Dosen dosen = new Dosen("Dr. Anwar");
+        Dosen dosen = new Dosen("Warren Buffet");
 
         mhs.display();
         dosen.display();
