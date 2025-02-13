@@ -37,5 +37,6 @@ public class Association {
 
         mhs.display();
         dosen.display();
+        dosen.mengajar();
     }
 }
