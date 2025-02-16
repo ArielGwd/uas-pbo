@@ -1,3 +1,5 @@
+package Association;
+
 class Mahasiswa {
     private String nama;
 

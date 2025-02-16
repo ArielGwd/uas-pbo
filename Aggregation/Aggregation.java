@@ -1,3 +1,5 @@
+package Aggregation;
+
 class Karyawan {
     private String name;
 

@@ -1,3 +1,4 @@
+package KonsepInterface;
 interface pekerja {
     void bekerja();
     void gaji();
